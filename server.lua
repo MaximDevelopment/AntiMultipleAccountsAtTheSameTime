@@ -5,8 +5,8 @@ SpelersIngame = {}
 
 ------- WANNEER DE SPELER JOINED WORDT HIJ IN DE TABLE GEZET ------- 
 
-RegisterNetEvent('nijmegen:speler:gejoined')
-AddEventHandler('nijmegen:speler:gejoined', function()
+RegisterNetEvent('maxim:speler:gejoined')
+AddEventHandler('maxim:speler:gejoined', function()
     table.insert(SpelersIngame, GetPlayerIdentifiers(source)[1])
 end)
 
