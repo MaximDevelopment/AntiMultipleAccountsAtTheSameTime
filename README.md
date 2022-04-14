@@ -1,3 +1,3 @@
 # AntiMultipleAccountsAtTheSameTime
 
-> It will check if the steamidentifier is already ingame 
+> It will check if the **steamidentifier** is already ingame 
